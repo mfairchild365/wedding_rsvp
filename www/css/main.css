@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+    background-image: url('../images/heart.png');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: right top; 
+}
+
+#maincontent {
+    font: 90% Arial,Helvetica,sans-serif;
+    background-color: grey;
+    width:800px;
+    height:600px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity:0.9;
+    filter:alpha(opacity=90); /* For IE8 and earlier */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: Monaco,
+             "Bitstream Vera Sans Mono",
+             "Lucida Console",
+             Terminal,
+             monospace;
+    background-color: white;
+    width:800px;
+    height:30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    opacity:0.9;
+    filter:alpha(opacity=90); /* For IE8 and earlier */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 a:link, a:hover, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    background-image: url('../images/h2.png');
+    background-repeat:no-repeat;
+    background-color: white;
+    color: black;
+    width: 600px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 80px;
+    padding-top: 15px;
+    height: 35px;
+}
+
+#content {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    min-height: 500px;
+}
+
+#footer {
+    width: 800px;
+    margin: 5px;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 75%;
+    background-color: grey;
+}
