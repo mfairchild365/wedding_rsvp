@@ -27,7 +27,7 @@
         </li>
         <li>
           <label>Do you plan on attending the reception?</label>
-          <input type="checkbox" name="guest" value="1"/> Yes
+          <input type="checkbox" name="reception" value="1"/> Yes
         </li>
       </ul>
       <input type="hidden" name="_class" value='<?php echo get_class($context->getRawObject()); ?>'/>
