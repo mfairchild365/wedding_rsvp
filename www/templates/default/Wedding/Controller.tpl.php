@@ -11,7 +11,7 @@
     <h1><a href="<?php echo Wedding_Controller::$url?>" title="go to the home page">Michael and Amy's Wedding</a></h1>
     
     <div id='maincontent'>
-    <div id='heart'></div>
+    <div id='heartcontainer'><div id='heart'></div></div>
         <?php 
         echo $savvy->render($context->actionable);
         ?>
