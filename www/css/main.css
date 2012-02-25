@@ -4,7 +4,7 @@ body {
 }
 
 #heartcontainer {
-    top:95px;
+    top:125px;
     position: fixed;
     width: 975px;
     height: 116px;
@@ -12,6 +12,46 @@ body {
     margin-right: auto;
     z-index: -1;
 }
+
+#menu {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu ul {
+    liststyle: none;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 5px;
+    font-size: 115%;
+}
+
+#menu a:link {
+    height: 10px;
+    background-color: white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#menu a:hover {
+        
+    background-color: grey;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 #heart {
     background-color: grey;
@@ -65,6 +105,7 @@ h1 {
     -moz-border-radius: 10px;
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 5px;
 }
 
 h1 a:link, a:hover, a:visited {
