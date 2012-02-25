@@ -9,7 +9,9 @@
 </head>
 <body>
     <h1><a href="<?php echo Wedding_Controller::$url?>" title="go to the home page">Michael and Amy's Wedding</a></h1>
+    
     <div id='maincontent'>
+    <div id='heart'></div>
         <?php 
         echo $savvy->render($context->actionable);
         ?>

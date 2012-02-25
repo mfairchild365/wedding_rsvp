@@ -1,9 +1,26 @@
 body {
-    background-color: white;
+    background-color: white; 
+}
+
+#heart {
+    top:75px;
+    position: fixed;
+    width: 975px;
+    height: 116px;
     background-image: url('../images/heart.png');
     background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-position: right top; 
+    background-position: right top;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+}
+
+#left, #middle. #right {
+    float: left;
+}
+
+#left, #right {
+    width: 120px;
 }
 
 #maincontent {
