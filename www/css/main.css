@@ -1,6 +1,5 @@
 body {
     background-color: white;
-    background-image: url('../images/back-green3.jpg'); 
 }
 
 #heartcontainer {
@@ -41,7 +40,6 @@ body {
 }
 
 #menu a:hover {
-        
     background-color: grey;
     color: white;
     -webkit-border-radius: 10px;
@@ -54,7 +52,6 @@ body {
 
 
 #heart {
-    background-color: grey;
     height: 116px;
     background-image: url('../images/heart.png');
     background-repeat: no-repeat;
