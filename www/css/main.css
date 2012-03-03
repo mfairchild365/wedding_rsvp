@@ -150,3 +150,15 @@ h2 {
     font-size: 75%;
     background-color: grey;
 }
+
+#mikeamyphoto {
+    text-align: center;
+    margin: 10px;
+}
+
+#mikeamyphoto img {
+    border: 2px black solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
