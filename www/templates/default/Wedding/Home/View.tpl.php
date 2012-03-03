@@ -1,10 +1,9 @@
 <h2>Wedding Home</h2>
 
 <div id='content'>
-  I want to:
-  <ul>
-    <li><a href="<?php Wedding_Controller::$url?>RSVP">RSVP</a></li>
-  </ul>
+  Welcome to our wedding site.  Here you will be able to RSVP to the wedding and find out details about the wedding such as directions and near by hotels.
   
-  <img src="<?php Wedding_Controller::$url?>www/images/amymike.jpg" width="700" height="394"/>
+  <div id='mikeamyphoto'>
+    <img src="<?php Wedding_Controller::$url?>www/images/amymike.jpg" width="532" height="395"/>
+  </div>
 </div>
