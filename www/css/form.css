@@ -2,6 +2,7 @@
 form label {
     display: block;
     color: black;
+    cursor: default;
 }
 
 form ul {
