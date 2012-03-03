@@ -26,7 +26,7 @@ error_reporting(E_ALL);
 
 Wedding_Controller::$cacheRoutes = false;
 
-Wedding_Controller::$url = 'http://mfairchild365.com/wedding/';
+Wedding_Controller::$url = 'http://localhost/wedding/';
 
 Wedding_Controller::$applicationDir = dirname(__FILE__);
 
@@ -37,7 +37,7 @@ Wedding_Controller::$email = "mfairchild365@gmail.com";
 
 Wedding_Controller::setDbSettings(array(
     'host'     => 'localhost',
-    'user'     => 'wedding',
-    'password' => 'HqH66fBEqEhn2Fzh',
+    'user'     => 'mfairchi',
+    'password' => '123123',
     'dbname'   => 'wedding'
 ));

@@ -8,11 +8,12 @@
     <title>Wedding</title>
 </head>
 <body>
-    <h1><a href="<?php echo Wedding_Controller::$url?>" title="go to the home page">Michael and Amy's Wedding</a></h1>
+    <h1><a href="<?php echo Wedding_Controller::$url?>" title="go to the home page">Michael and Amy&#39;s Wedding</a></h1>
     <div id='menu'>
         <ul>
           <li><a href="<?php echo Wedding_Controller::$url?>">Home</a></li>
           <li><a href="<?php echo Wedding_Controller::$url?>rsvp">RSVP</a></li>
+          <li><a href="<?php echo Wedding_Controller::$url?>info">Info</a></li>
           <li><a href="<?php echo Wedding_Controller::$url?>map">Map</a></li>
         </ul>
     </div>
