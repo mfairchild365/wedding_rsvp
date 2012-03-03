@@ -10,9 +10,10 @@ USE `wedding` ;
 -- -----------------------------------------------------
 CREATE  TABLE IF NOT EXISTS `wedding`.`rsvps` (
   `id` INT NOT NULL AUTO_INCREMENT ,
-  `name` VARCHAR(255) NULL ,
-  `guest` INT(1) NULL ,
-  `reception` INT(1) NULL ,
+  `name` VARCHAR(255) NOT NULL ,
+  `guest` VARCHAR(45) NOT NULL ,
+  `reception` VARCHAR(45) NOT NULL ,
+  `wedding` VARCHAR(45) NOT NULL ,
   PRIMARY KEY (`id`) )
 ENGINE = InnoDB;
 

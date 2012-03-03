@@ -22,14 +22,28 @@
           <input type="text" name="name"></input>
         </li>
         <li>
-          <label>Do you plan on bringing a guest?</label>
-          <input type="checkbox" name="guest" value="1"/> Yes
+          <label>I plan on attending the wedding?</label>
+          <select name='wedding'>
+            <option value='yes'>Yes</option>
+            <option value='no'>No</option>
+          </select>
         </li>
         <li>
-          <label>Do you plan on attending the reception?</label>
-          <input type="checkbox" name="reception" value="1"/> Yes
+          <label>I plan on bringing a guest?</label>
+          <select name='guest'>
+            <option value='yes'>Yes</option>
+            <option value='no'>No</option>
+          </select>
+        </li>
+        <li>
+          <label>I plan on attending the reception?</label>
+          <select name='reception'>
+            <option value='yes'>Yes</option>
+            <option value='no'>No</option>
+          </select>
         </li>
       </ul>
+      
       <input type="hidden" name="_class" value='<?php echo get_class($context->getRawObject()); ?>'/>
       <input type="submit" value="Submit" class='submit' />
     </fieldset>

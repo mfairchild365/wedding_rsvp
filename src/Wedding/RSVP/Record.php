@@ -20,6 +20,8 @@ class Wedding_RSVP_Record extends \Epoch\Record
     
     public $reception;
     
+    public $wedding;
+    
     public static function getByID($id)
     {
         return self::getByAnyField('Wedding_RSVP_Record', 'id', (int)$id);
