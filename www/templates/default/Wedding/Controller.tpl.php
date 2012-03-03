@@ -13,6 +13,7 @@
         <ul>
           <li><a href="<?php echo Wedding_Controller::$url?>">Home</a></li>
           <li><a href="<?php echo Wedding_Controller::$url?>rsvp">RSVP</a></li>
+          <li><a href="<?php echo Wedding_Controller::$url?>map">Map</a></li>
         </ul>
     </div>
     <div id='maincontent'>
