@@ -36,4 +36,10 @@ class Wedding_RSVP_Record extends \Epoch\Record
     {
         return 'rsvps';
     }
+
+    public function insert()
+    {
+        parent::insert();
+        mail("mfairchild365@gmail.com", "RSVP", $this->name . " has RSVPd.  guest: " . $this->guest . ", reception: " . $this->reception . ", wedding: " . $this->wedding);
+    }
 }
