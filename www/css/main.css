@@ -162,3 +162,13 @@ h2 {
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
+
+table {
+    collapse: collapse;
+    margin: 5px;
+    
+}
+
+table, td, th {
+    border: 1px solid black;
+}
