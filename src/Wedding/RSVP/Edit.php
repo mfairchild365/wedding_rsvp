@@ -9,7 +9,7 @@ class Wedding_RSVP_Edit extends Wedding_RSVP_Record
         $this->synchronizeWithArray($post);
        
        if(!$result = $this->save()) {
-         throw new \Excaption("Could not save!", 500);
+         //throw new \Exception("Could not save!", 500);
        }
        
        \Epoch\Controller::redirect(Wedding_Controller::$url . "success");
